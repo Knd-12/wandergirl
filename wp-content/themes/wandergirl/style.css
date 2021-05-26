@@ -4,3 +4,103 @@ Author: kndesigns
 Description: Custom theme for Wandergirl Web Agency
 Version: 1.0.0
 */
+
+
+.primary-carousel .carousel-item {
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.primary-carousel .carousel-item .carousel-caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 170px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.primary-carousel .carousel-item .carousel-caption h1 {
+    font-size: 28px;
+}
+
+.primary-carousel img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+.primary-carousel img.top {
+    object-position: center;
+    
+}
+.primary-carousel img.bottom {
+    object-position: bottom;
+    
+}
+
+.post-carousel .carousel-item {
+    height: 600px;
+}
+.post-carousel .carousel-item.ht-600 {
+    height: 600px;
+}
+.post-carousel .carousel-item.ht-500 {
+    height: 500px;
+}
+.post-carousel .carousel-item.ht-400 {
+    height: 400px;
+}
+.post-carousel .carousel-item.ht-300 {
+    height: 300px;
+}
+
+/* archive.php*/
+#subheader-title-wrapper {
+    border-bottom: 1px solid #ddd;
+}
+#subheader-title-wrapper h1 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.blogroll-post-image {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.blogroll-post-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#main-sidebar label{
+    display: block;
+}
+
+/* footer */
+
+#site-footer{
+    padding: 60px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+
+}
+
+#site-footer ul {
+    list-style: none;
+}
+
+#site-footer .sm-icons{
+    font-size: 36px;
+}
+
+
+

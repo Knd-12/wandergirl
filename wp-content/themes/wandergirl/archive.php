@@ -1,3 +1,4 @@
+
 <?php
 
 get_header();
@@ -18,11 +19,9 @@ get_header();
         <div class="col-lg-8">
         <?php
 
-
         if(have_posts()): while(have_posts()): the_post();
 
             if( !empty(get_the_post_thumbnail_url()) ){
-
 
                 // Get the alt text for the image
                 $thumbnail_id = get_post_thumbnail_id( get_the_ID() );
@@ -31,7 +30,7 @@ get_header();
 
                     <div class="blogroll-post-image-wrapper">
                         <a href="<?php the_permalink() ?>">
-                            <img class="blogroll-post-image" src="<?=get_the_post_thumbnail_url()?>" alt="<?=$alt?>">
+                            <img class="blogroll-post-image img-fluid" src="<?=get_the_post_thumbnail_url()?>" alt="<?=$alt?>">
                         </a>
                     </div>
             <?php } ?>
@@ -56,12 +55,10 @@ get_header();
             ?>
         </div><!-- .col-lg-4 -->
 
-
-
     </div><!-- .row -->
 
-    <div class="nav-previous alignleft"><?php previous_posts_link( 'Older posts' ); ?></div>
-    <div class="nav-next alignright"><?php next_posts_link( 'Newer posts' ); ?></div>
+    <div class="nav-previous alignleft"><?php previous_posts_link( 'Newer posts >>' ); ?></div>
+    <div class="nav-next alignright"><?php next_posts_link( '<< Older posts' ); ?></div>
 
 </div><!-- .container -->
 <?php

@@ -3,6 +3,7 @@ function register_my_menus() {
   register_nav_menus(
     array(
       'primary-nav' => __( 'Primary Nav' ),
+
     )
   );
 }
