@@ -85,6 +85,44 @@ Version: 1.0.0
     display: block;
 }
 
+
+
+/* 404.php */
+#background-404 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('http://wandergirl.kndesigns.local/wp-content/uploads/2021/05/grav-3rhZlxe9D4g-unsplash-scaled.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+#search-form-404-wrapper {
+    background: rgba(0, 0, 0, 0.6);
+    height: 200px;
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#search-form-404-wrapper p {
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
 /* footer */
 
 #site-footer{
@@ -102,5 +140,20 @@ Version: 1.0.0
     font-size: 36px;
 }
 
+.navbar-brand img{
+    height: 30px;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-weight: 700;
+
+}
 
 
