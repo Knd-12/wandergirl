@@ -18,7 +18,7 @@ $featured_image_height = get_field('featured_image_height');
     <div class="carousel-item ht-<?=$featured_image_height?> active">
       <img class="img-fluid <?=$featured_image_position?>" src="<?= get_the_post_thumbnail_url() ?>" alt="<?=$alt?>">
       <div class="carousel-caption">
-        <h1>Taking The Web to New Heights</h1>
+        <h1>Taking The Web to New Heights or dont upto you</h1>
         <p>Marketing // Design // Development</p>
         <a class="btn btn-primary" href="/contact/">Get in Touch</a>
       </div>
