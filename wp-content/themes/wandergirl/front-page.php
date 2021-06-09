@@ -10,29 +10,40 @@ $featured_image_position = get_field('featured_image_position');
 $featured_image_height = get_field('featured_image_height');
 
 ?>
-<div class="row">
-    <div class="col-md-6 p-5">
-        <div class="primary-carousel carousel slide" data-ride="carousel">
 
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-                <div class="carousel-item ht-<?=$featured_image_height?> active">
-                <img class="img-fluid <?=$featured_image_position?>" src="<?= get_the_post_thumbnail_url() ?>" alt="<?=$alt?>">
+<br>
+<br>
+<br>
+<div class="container header-img">
+    <div class="row">
+        <div class="col-sm-6 p-5 ">
+            
+
+           
                 
-                </div>
-            </div>
+            <img class="img-fluid purple-girl <?=$featured_image_position?>" src="<?= get_the_post_thumbnail_url() ?>" alt="<?=$alt?>">
+            
+            
+        </div> 
 
-        </div><!-- #home-carousel -->
-    </div>
+        <div class="col-sm-2"></div>
+            
+        
 
-    <div class="col-md-6">
-        <div class="carousel-caption text-dark p-5">
-            <h1>HI, I'M KIM</h1>
-            <p>Travel blogging and documenting my trips with family and friends to some of the most exotic places on earth. You like the pictures you see? Contact me, and I would be happy to make my art a part of your home!</p>
-            <a class="btn btn-primary" href="/contact/">Send me a message</a>
+        <div class="col-sm-4 text-center shape">
+           
+                <h1>HI, I'M KIM</h1>
+                <p class="caption">Travel blogging and documenting my trips with family and friends to some of the most exotic places on earth. You like the pictures you see? Contact me, and I would be happy to make my art a part of your home!</p>
+                <br>
+                <a class="btn btn-danger" href="/contact/">Send me a message</a>
+            
         </div>
     </div>
 </div>
+
+<br>
+<br>
+<br>
 
 
 <div class="container">
@@ -41,10 +52,11 @@ $featured_image_height = get_field('featured_image_height');
 
 
 <section id="home-featured-works-section" class="section">
+    <div class="container">
 
-      <h2 class="text-center my-5">Featured Works</h2>
+      <h2 class="text-center my-5">My Destinations</h2>
 
-      <div class="row no-marg">
+      <div class="row p-5">
 
           <?php
 
@@ -95,6 +107,7 @@ $featured_image_height = get_field('featured_image_height');
 
 
       <div class="text-center"><a class="btn btn-danger mt-5 " href="/works/">View More Works</a></div>
+    </div>
 
 </section><!-- #home-featured-works-section -->
 
