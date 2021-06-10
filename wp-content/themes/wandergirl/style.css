@@ -13,7 +13,7 @@ Version: 1.0.0
 .shape{
     background-image: url(/wp-content/uploads/2021/06/Path\ 75.png);
     width: 10%;
-   padding: 5px;
+    padding: 5px;
     
    
 }
@@ -144,13 +144,17 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
 }
 
+#home-featured-works-section{
+    background-color: #3F3D56;
 
+}
 
 /* Home Featured Works Section */
 #home-featured-works-section .feature-work-image-wrapper {
     height: 220px;
     overflow: hidden;
     position: relative;
+   
 }
 
 #home-featured-works-section .feature-work-image-wrapper img {

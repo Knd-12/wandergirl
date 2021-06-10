@@ -30,12 +30,12 @@ $featured_image_height = get_field('featured_image_height');
             
         
 
-        <div class="col-sm-4 text-center shape">
+        <div class="col-sm-4 p-5 text-center shape">
            
-                <h1>HI, I'M KIM</h1>
-                <p class="caption">Travel blogging and documenting my trips with family and friends to some of the most exotic places on earth. You like the pictures you see? Contact me, and I would be happy to make my art a part of your home!</p>
-                <br>
-                <a class="btn btn-danger" href="/contact/">Send me a message</a>
+            <h1>HI, I'M KIM</h1>
+            <p class="caption">Travel blogging and documenting my trips with family and friends to some of the most exotic places on earth. You like the pictures you see? Contact me, and I would be happy to make my art a part of your home!</p>
+            <br>
+            <a class="btn btn-danger" href="/contact/">Send me a message</a>
             
         </div>
     </div>
@@ -53,8 +53,17 @@ $featured_image_height = get_field('featured_image_height');
 
 <section id="home-featured-works-section" class="section">
     <div class="container">
+        <div class="col-md-12">
+            <img class="float-center p-5" src="\wp-content\uploads\2021\06\Icon open-globe.png" alt="">
+            <h2 class="text-center m-auto p-5">My Destinations</h2>
+            <p class="text-center p-1 text-light">MALDIVES | SINGAPORE | RUSSIA | INDIA |
+                U.A.E. | U.K. | AFRICA | CANADA</p>
+                <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo commodi aliquam itaque repellendus rerum adipisci. Quis nobis, eos ipsam ipsa laboriosam culpa adipisci nesciunt praesentium voluptatem, qui aspernatur dicta molestiae.</p>
+        </div>
 
-      <h2 class="text-center my-5">My Destinations</h2>
+        
+
+     
 
       <div class="row p-5">
 
@@ -62,7 +71,7 @@ $featured_image_height = get_field('featured_image_height');
 
           $args = array(
               'post_type' => 'works',
-              'posts_per_page'=> 8,
+              'posts_per_page'=> 4,
           );
 
           $query = new WP_Query( $args );
@@ -75,9 +84,9 @@ $featured_image_height = get_field('featured_image_height');
               $client_website_link = get_field( "client_website_link" );
               ?>
 
-          <div class="col-lg-3 col-sm-6 feature-work-image-wrapper no-pad">
+          <div class="col-lg-3 col-sm-6 feature-work-image-wrapper m-auto">
 
-              <div class="featured-works-meta">
+              <div class="featured-works-meta p-4">
                   <h3 class="fwm-title pt-4"><?php the_title() ?></h3>
                   <a class="fwm-readmore btn btn-ghost" href="<?php the_permalink() ?>">Read More</a>
                   <a class="fwm-offsite-link" href="<?=$client_website_link?>" target="_blank"><i class="fas fa-external-link-alt"></i></a>
@@ -106,7 +115,7 @@ $featured_image_height = get_field('featured_image_height');
 
 
 
-      <div class="text-center"><a class="btn btn-danger mt-5 " href="/works/">View More Works</a></div>
+      <div class="text-center"><a class="btn btn-danger mt-5 " href="/works/">View More Destinations</a></div>
     </div>
 
 </section><!-- #home-featured-works-section -->
