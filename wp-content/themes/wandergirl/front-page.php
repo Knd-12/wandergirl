@@ -13,10 +13,10 @@ $featured_image_height = get_field('featured_image_height');
 
 <br>
 <br>
-<br>
+
 <body>
 <div class="container header-img">
-    <div class="row p-3">
+    <div class="row p-4">
         
         <div class="col-sm-6">      
            
@@ -29,10 +29,10 @@ $featured_image_height = get_field('featured_image_height');
         
         <div class="col-sm-6 p-5 text-center shape">
             
-            <h1>Hi, I'm Kim</h1>
-            <p class="caption">Travel blogging and documenting my trips with family and friends to some of the most exotic places on earth. You like the pictures you see? Contact me, and I would be happy to make my art a part of your home!</p>
+            <h4>Hi, I'm Kim</h4>
+            <p class="caption">Travel blogging and documenting my trips with family and friends to some of the most exotic places on earth. If you like scenic pictures, contact me and I would be happy to make my art a part of your home!</p>
             <br>
-            <a class="my-cta-button" href="/contact/">Send me a message</a>
+            <a class="my-cta-button" href="\contact-me\">Send me a message</a>
             
         </div>
       
@@ -85,7 +85,7 @@ $featured_image_height = get_field('featured_image_height');
 
             <div class="col-sm-4">  
                 <img class="rounded mx-auto d-block" src="\wp-content\uploads\2021\06\Icon open-globe.png" alt="" width="30">      
-                <h2 class="text-center mt-3 text-light">My Destinations</h2>
+                <h4 class="text-center mt-3 text-light">My Destinations</h4>
                 
             </div>
             <div class="col-sm-2"></div>
@@ -123,14 +123,14 @@ $featured_image_height = get_field('featured_image_height');
 
      
 
-        <div class="row p-2">
+        <div class="row p-4">
 
             
             <?php
 
             $args = array(
-                'post_type' => 'works',
-                'posts_per_page'=> 4,
+                'post_type' => 'destinations',
+                'posts_per_page'=> 3,
             );
 
             $query = new WP_Query( $args );
@@ -172,12 +172,17 @@ $featured_image_height = get_field('featured_image_height');
             <br>
             <br>
 
-            <div class=" m-auto p-5"><a class="my-cta-button" href="/works/">View More Destinations</a>
-            </div>
-            <br><br>
-
-
+           
         </div><!-- .row -->
+        
+        <div class="row">
+        <div class="m-auto"><a class="my-cta-button" href="/destinations/">View More Destinations</a>
+        <br><br>
+
+        </div>
+        
+        
+    </div>
         
     </div>
 
@@ -190,12 +195,12 @@ $featured_image_height = get_field('featured_image_height');
 
 <section class="section">
 
-    <h2 class="text-center my-5">Recent Blog Posts</h2>
+    <h4 class="text-center my-5">Recent Blog Posts</h4>
 
     <div class="container m-auto">
 
         <div class="row text-center">
-            
+             
 
             <?php
 
@@ -244,6 +249,8 @@ $featured_image_height = get_field('featured_image_height');
     </div><!-- .container -->
 
 </section><!-- #home-recent-posts-section -->
+
+
 </body>
 
 <?php

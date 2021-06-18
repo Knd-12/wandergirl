@@ -10,12 +10,15 @@ Version: 1.0.0
 .shape{
     background-image: url(/wp-content/uploads/2021/06/Path\ 75.png);
     width: auto;
+    height: auto;
     padding: 5px;
+    box-shadow: #3F3D56;
     
    
 }
-.shape h1{
+ h4{
     font-size: 30px;
+    font-family: 'Satisfy', cursive;
    
 }
 
@@ -53,6 +56,11 @@ Version: 1.0.0
     text-align:    center;
 }
 
+.wilderbeast{
+    height: 50vh;
+    width: 50vh;
+}
+
 .icon {
     
     width:  50px;
@@ -61,6 +69,14 @@ Version: 1.0.0
     
 }
 
+.footer-widget-1{
+    text-decoration: none;
+    color: black;
+}
+.footer-widget-1:hover{
+    text-decoration: none;
+    color: black;
+}
 
 
 /* archive.php*/
@@ -169,10 +185,8 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-h1, h2{
 
-    font-family: 'Satisfy', cursive;
-}
+
 
 
 
