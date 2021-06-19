@@ -28,11 +28,7 @@ get_header();
                 $alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
         ?>
 
-                    <div class="blogroll-post-image-wrapper">
-                        <a href="<?php the_permalink() ?>">
-                            <img class="blogroll-post-image img-fluid" src="<?=get_the_post_thumbnail_url()?>" alt="<?=$alt?>">
-                        </a>
-                    </div>
+                  
             <?php } ?>
 
                 <h3 class="mt-4 mb-4"><?php the_title() ?></h3>
