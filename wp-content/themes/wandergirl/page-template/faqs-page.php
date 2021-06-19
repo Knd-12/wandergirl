@@ -10,7 +10,7 @@ wp_enqueue_script('faqa', get_template_directory_uri().'/assets/libs/faqs/faqs.j
 
 <div class="container">
 
-    <h1 class="text-center mt-4 mb-4 p-2"><?php the_title() ?></h1>
+    <h4 class="text-center mt-4 mb-4 p-2"><?php the_title() ?></h4>
     <?php the_content(); ?>
 
   
@@ -67,11 +67,25 @@ wp_enqueue_script('faqa', get_template_directory_uri().'/assets/libs/faqs/faqs.j
       </div>
     </div>
   </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        How much do your pictuers sell for?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+      Currently I am selling my photography at a high rate to generate some income, which will help me fund my future trips and expand my team. Every purchase made goes back into investment for better equipments.
+      </div>
+    </div>
+  </div>
 </div>
     </div>
     <div class="col-sm-2"></div>
     <div class="col-sm-4">
-    <img class="rounded mx-auto d-block" src="\wp-content\uploads\2021\06\singapore.JPG" alt="" width="100%">
+    <img class="rounded mx-auto d-block img-fluid" src="\wp-content\uploads\2021\06\singapore.JPG" alt="" width="100%">
     </div>
   </div>
 </div>

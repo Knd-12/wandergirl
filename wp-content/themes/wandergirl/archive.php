@@ -37,7 +37,7 @@ get_header();
 
                 <h3 class="mt-4 mb-4"><?php the_title() ?></h3>
                 <?php the_excerpt(); ?>
-                <a class="btn btn-primary mb-5" href="<?php the_permalink() ?>">Read More</a>
+                <a class="cta-button mb-5" href="<?php the_permalink() ?>">Read More</a>
             <?php
             endwhile;
         else:
@@ -47,7 +47,7 @@ get_header();
         endif;
         ?>
         </div><!-- .col-lg-8 -->
-        <div class="col-lg-4">
+        <div class="col-lg-4 sidebar">
             <?php
             if(is_active_sidebar('main-sidebar')){
                 dynamic_sidebar('main-sidebar');

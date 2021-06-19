@@ -105,7 +105,7 @@ $featured_image_height = get_field('featured_image_height');
                 <div class="col-sm-1"></div>
 
                 <div class="col-sm-6">
-                    <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo commodi aliquam itaque repellendus rerum adipisci. Quis nobis, eos ipsam ipsa laboriosam culpa adipisci nesciunt praesentium voluptatem, qui aspernatur dicta molestiae.
+                    <p class="text-center text-light"> Travelling has been a big part of my life. It has helped me to see the world with different eyes. I got to experience cultures and customs and a variety of cuisines that expanded my knowledge and taste buds!
                     </p>
 
                 </div>
@@ -123,7 +123,7 @@ $featured_image_height = get_field('featured_image_height');
 
      
 
-        <div class="row p-4">
+        <div class="row p-">
 
             
             <?php
@@ -171,9 +171,11 @@ $featured_image_height = get_field('featured_image_height');
             ?>
             <br>
             <br>
+            <br>
 
            
         </div><!-- .row -->
+        <br>
         
         <div class="row">
         <div class="m-auto"><a class="my-cta-button" href="/destinations/">View More Destinations</a>
@@ -185,6 +187,7 @@ $featured_image_height = get_field('featured_image_height');
     </div>
         
     </div>
+    <br>
 
 
 </section><!-- #home-featured-works-section -->

@@ -69,6 +69,18 @@ Version: 1.0.0
     
 }
 
+.btn-link{
+    text-decoration: none;
+    color: #575A89;
+}
+
+.btn-link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 .footer-widget-1{
     text-decoration: none;
     color: black;
@@ -77,6 +89,38 @@ Version: 1.0.0
     text-decoration: none;
     color: black;
 }
+
+.post{
+    text-decoration: none;
+    color: black;
+
+}
+.post:hover{
+    text-decoration: none;
+    color: black;
+
+}
+
+.fab{
+    text-decoration: none;
+    color: #575A89;
+
+}
+.fab:hover{
+    text-decoration: none;
+    color: black;
+
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+a:hover {
+    text-decoration: none;
+    color: #575A89; 
+}
+
 
 
 /* archive.php*/
